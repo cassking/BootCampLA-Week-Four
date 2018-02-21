@@ -1,0 +1,8 @@
+---
+title: "ES6 Promises and Fetch API"
+type: "article"
+description: "Learn about ES6 promises and the Fetch API"
+behaviors:
+  - react_on_node
+  - sinatra
+tags: "javascript, es6 promises, fetch api, react"

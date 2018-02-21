@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  /* background: url(http://hdwarena.com/wp-content/uploads/2016/12/Color-Codes-Background.jpg);
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-position: 0 50%; */
+  margin: 0;
+  padding:0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+ul{
+  list-style:none;
+  font-size:1.25em;
+}
+ul li {
+
+  display: inline-block;
+  margin: 0 20px;
+
+}
+ul li:hover{
+  background-color: #b9f7a8;
+}
+a.link {
+  border: 8px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #FFD000;
+  display: inline-block;
+
+}
+a.link:hover{
+  color: #000;
+  background-color:#ff9900;
+  -webkit-box-shadow:  1px 1px 2px 3px #b20034;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+ -moz-box-shadow:    1px 1px 2px 3px #b20034;  /* Firefox 3.5 - 3.6 */
+ box-shadow:  1px 1px 2px 3px #b20034;
+
+}
+
+.resume-section {
+  border: 1px solid black;
+  margin-top: 5em;
+}
+
+.project {
+  border: 1px solid black;
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+}

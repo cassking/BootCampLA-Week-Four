@@ -1,0 +1,95 @@
+/*Your style goes here*/
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  background: url(http://hdwarena.com/wp-content/uploads/2016/12/Color-Codes-Background.jpg);
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-position: 0 50%;
+  margin: 0;
+  padding:0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+h1 {
+  font-weight: 800;
+  -webkit-text-stroke: 1px black;
+     color: white;
+     text-shadow:
+         3px 3px 0  #b20034,
+       -1px -1px 0  #b20034,
+        1px -1px 0  #b20034,
+        -1px 1px 0  #b20034,
+         1px 1px 0  #b20034;
+}
+a {
+
+}
+
+a.link {
+  border: 8px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #FFD000;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  text-decoration: none;
+  -webkit-box-shadow: 3px 3px 5px 6px #b20034;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+ -moz-box-shadow:    3px 3px 5px 6px #b20034;  /* Firefox 3.5 - 3.6 */
+ box-shadow:         3px 3px 5px 6px #b20034;
+}
+a.link:hover{
+  color: #000;
+  background-color:#ff9900;
+  -webkit-box-shadow:  1px 1px 2px 3px #b20034;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+ -moz-box-shadow:    1px 1px 2px 3px #b20034;  /* Firefox 3.5 - 3.6 */
+ box-shadow:  1px 1px 2px 3px #b20034;
+
+}
+
+.content {
+  max-width:80%;
+  border-radius: 13px;
+  border: 8px solid #fff;
+  margin: 0 auto;
+  background: #FFD000;
+  padding-top: 1px;
+
+  padding: 20px
+  -webkit-box-shadow: 3px 3px 5px 6px #b20034;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+ -moz-box-shadow:    3px 3px 5px 6px #b20034;  /* Firefox 3.5 - 3.6 */
+ box-shadow:         3px 3px 5px 6px #b20034;
+}
+
+.navbar {
+  background: none;
+  padding: 10px;
+  /* #FFD000 */
+}
+
+.title {
+  text-align: center;
+}
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+.black   { background-color: #000; }
+.black select   { color: #fff; }
+.rounded {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
