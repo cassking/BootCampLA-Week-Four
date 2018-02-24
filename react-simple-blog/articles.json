@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript Promises",
+    "body": "Don't make Promises you can't resolve!"
+  },
+  {
+    "id": 2,
+    "title": "Just Harry Potter Things...",
+    "body": "Something something muggle. Something something hufflepuff."
+  },
+  {
+    "title": "This is an article",
+    "body": "This is the body or article",
+    "id": 3
+  },
+  {
+    "title": "This is another Article",
+    "body": "This is the other body of the other article",
+    "id": 4
+  },
+  {
+    "title": "Hello world Title",
+    "body": "Hello world body",
+    "id": 5
+  },
+  {
+    "title": "This is the best title in the world",
+    "body": "this is  the body",
+    "id": 6
+  }
+]

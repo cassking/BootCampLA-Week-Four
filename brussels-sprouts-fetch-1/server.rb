@@ -21,6 +21,7 @@ end
 # API ENDPOINTS
 
 get "/api/v1/random-recipe" do
+
   dish = read_dishes.sample
 
   content_type :json
@@ -54,6 +55,7 @@ get "/api/v1/shortest-recipe" do
   content_type :json
   json shortestrecipe
 end
+
 
 get "*" do
   erb :home
